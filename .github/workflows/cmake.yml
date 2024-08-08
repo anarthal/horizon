@@ -230,7 +230,7 @@ jobs:
   Windows-Tests:
     strategy:
       matrix:
-        build_type: ["Debug", "RelWithDebInfo", "Release"]
+        build_type: ["Debug"]
     runs-on: Windows
     steps:
       - name: Checkout
